@@ -8,10 +8,10 @@
 </head>
 
 <body>
-    <table border="1">
+    <table cellspacing="20">
 
         <thead>
-            Form and Input tags <br><br>
+            <th>Form and Input tags</th> <br><br>
         </thead>
 
         <tbody>
@@ -20,7 +20,7 @@
                     <label for="full_name">Name:</label>
                 </td>
                 <td>
-                    <input type="text" id="full_name" placeholder="Enter Your Name">
+                    <input type="text" id="full_name" placeholder="Enter Your Name" autofocus>
                 </td>
 
             </tr>
@@ -54,7 +54,7 @@
 
             <tr>
                 <td><label>Date</label></td>
-                <td><input type="date"></td>
+                <td><input type="date" id="date" name="date" min="1980-02-01" max="2010-06-06"></td>
             </tr>
             <tr>
                 <td><label for="check">Checkbox</label></td>
@@ -88,6 +88,9 @@
             </tr>
         </tbody>
     </table>
+
+    
+
 </body>
 
 </html>
