@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <table border="1">
+
+        <thead>
+            Form and Input tags <br><br>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <label for="full_name">Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="full_name" placeholder="Enter Your Name">
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="ph">Phone number:</label> </td>
+                <td><input type="tel" maxlength="10" id="tel" placeholder="eg:9876543210"></td>
+
+
+            </tr>
+
+            <tr>
+                <td><label for="email">E-mail:</label></td>
+                <td><input type="email" id="email" placeholder="enteremail@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Enter password</label></td>
+                <td> <input type="password" id="password" minlength="6" maxlength="9" placeholder="6 <=length <=9"></td>
+            </tr>
+            <td><label for="Range">Range</label></td>
+            <td> <input type="range" id="range" name="range" min="0" max="10"></td>
+            </tr>
+            <tr>
+                <td><label>Color</label></td>
+                <td><input type="color"></td>
+            </tr>
+
+            <tr>
+                <td><label>File</label></td>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <td><label>Date</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label for="check">Checkbox</label></td>
+                <td> <input type="checkbox" name="check">BOX1
+                    <input type="checkbox" name="check">BOX2
+                    <input type="checkbox" name="check">BOX3
+
+                </td>
+            </tr>
+            <tr>
+                <td><label for="radio"></label>Radio</td>
+                <td><input type="radio" name="radio">DEV
+                    <input type="radio" name="radio">DSA
+                    <input type="radio" name="radio">DS
+                </td>
+            </tr>
+        
+                <td>Select</td>
+                <td><select name="select" id="">
+                        <option>option1</option>
+                        <option>option2</option>
+                        <option>option3</option>
+                    </select>
+                </td>
+
+                          
+            <tr>
+
+                <td> <input type="submit"></td>
+                <td> <input type="reset"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
