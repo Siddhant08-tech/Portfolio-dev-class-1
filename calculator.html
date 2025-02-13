@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body bgcolor="yellow">
+    <h1> <font color="red">Basic Calculator</font></h1>
+    <h2><font color="blue"> Addition</font></h2>
+    <form oninput="result.value=parseInt(num1.value) + parseInt(num2.value)">
+        <input type="number" id="num1" placeholder="Enter first number"><br>+<br>
+        <input type="number" id="num2" placeholder="Enter second number"><br>=
+        <output name="result" id="result" for="num1 num2"></output>
+    </form>
+    <h2><font color="blue">Substraction</font></h2>    
+    <form oninput="result.value=parseInt(num1.value) - parseInt(num2.value)">
+        <input type="number" id="num1" placeholder="Enter first number"><br>-<br>
+        <input type="number" id="num2" placeholder="Enter second number"><br>=
+        <output name="result" id="result" for="num1 num2"></output>
+    </form>
+    <h2>Multiplication</h2>
+    <form oninput="result.value=parseInt(num1.value) * parseInt(num2.value)">
+        <input type="number" id="num1" placeholder="Enter first number"><br>*<br>
+        <input type="number" id="num2" placeholder="Enter second number"><br>=
+        <output name="result" id="result" for="num1 num2"></output>
+    </form>
+    <h2>Divison</h2>
+    <!--using parsefloat in divison(eg.5/2)=2.5-->
+    <form oninput="result.value=parseInt(num1.value) / parseInt(num2.value)">
+        <input type="number" id="num1" placeholder="Enter first number"><br>/<br>
+        <input type="number" id="num2" placeholder="Enter second number"><br>=
+        <output name="result" id="result" for="num1 num2"></output>
+    </form>
+</body>
+
+</html>

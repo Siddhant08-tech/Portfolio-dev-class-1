@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+</head>
+<body bgcolor="yellow">
+    <h1><font color="red">Basic Calculator</font></h1>
+    
+    <form oninput="result.value=eval(num1.value + operator.value + num2.value)">
+        <fieldset>
+            <legend>Calculator using Radio</legend>
+        
+        <input type="number" id="num1" name="num1" placeholder="Enter first number"><br><br>
+        <input type="radio" name="operator" value="+">Additon <br>
+        <input type="radio" name="operator" value="-">Substraction <br>
+        <input type="radio" name="operator" value="*">Multiplication <br>
+        <input type="radio" name="operator" value="/">Divison <br><br>
+
+
+        <input type="number" id="num2" name="num2" placeholder="Enter second number"><br> <br> = <br><br><br>
+    </form>
+</fieldset><br><br><br><br>
+
+
+
+    <form oninput="result.value=eval(num1.value + operator.value + num2.value)">
+        <fieldset>
+            <legend>Calculator using Select </legend>
+        <input type="number" id="num1" name="num1" placeholder="Enter first number"><br><br>
+        <select id="operator" name="operator">
+            <option>Operations</option>
+            <option value="+">ADD +</option>
+            <option value="-">Sub -</option>
+            <option value="*">Mul *</option>
+            <option value="/">Div /</option>
+        </select><br><br> 
+        <input type="number" id="num2" name="num2" placeholder="Enter second number"><br> <br> 
+       
+    </form>
+        
+        <output name="result" id="result"></output>=
+    </fieldset>
+
+</body>
+</html>
